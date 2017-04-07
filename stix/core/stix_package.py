@@ -39,6 +39,9 @@ from . import (Campaigns, CoursesOfAction, ExploitTargets, Incidents,
 import stix.bindings.stix_core as stix_core_binding
 import mixbox.entities
 
+import stix.extensions.marking.ais
+import stix.extensions.marking.isamarkings
+
 class STIXPackage(stix.Entity):
     """A STIX Package object.
 

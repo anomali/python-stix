@@ -19,6 +19,8 @@ class MarkingStructureFactory(entities.EntityFactory):
         import stix.extensions.marking.tlp  # noqa
         import stix.extensions.marking.simple_marking  # noqa
         import stix.extensions.marking.terms_of_use_marking  # noqa
+        import stix.extensions.marking.ais
+        import stix.extensions.marking.isamarkings
         return stix.lookup_extension(key, default=MarkingStructure)
 
 
